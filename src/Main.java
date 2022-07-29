@@ -9,6 +9,11 @@ public class Main {
         double money = 123.567;
         boolean namberOfCats = cat >= 8;
         System.out.println(namberOfCats);
+        char a = 64;
+        char b = '@';
+        System.out.println(a+"="+b);
+
+
 
 
 
