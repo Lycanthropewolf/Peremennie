@@ -12,11 +12,6 @@ public class Main {
         char a = 64;
         char b = '@';
         System.out.println(a+"="+b);
-
-
-
-
-
-
+        System.out.println(a);
     }
 }
