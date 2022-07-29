@@ -32,8 +32,10 @@ public class Main {
         byte milkWeight100Ml = 105;
         byte weightIceCream = 100;
         byte weightEggs = 70;
-        int totalWeight = banana * weightBanana + milk * milkWeight100Ml + iceCream * weightIceCream + eggs * weightEggs;
+        double totalWeight = banana * weightBanana + milk * milkWeight100Ml + iceCream * weightIceCream + eggs * weightEggs;
         System.out.println("Общий вес смеси в граммах " + totalWeight);
+        double totalWeightKG = totalWeight / 1000;
+        System.out.println("Общий вес смеси в килограммах = " +totalWeightKG);
 
 
 
