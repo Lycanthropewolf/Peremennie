@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-
         // задание 1
         byte cat = 10;
         short dog = 30_000;
@@ -14,7 +13,6 @@ public class Main {
         char b = '@';
         System.out.println(a+"="+b);
         System.out.println(a);
-
         // Задание 2
         float boxerA = 78.2F;
         float boxerB = 82.7F;
@@ -22,7 +20,6 @@ public class Main {
         System.out.println("Общий вес боксеров " + totalWeightOfBoxer);
         float differentWeightOfBoxer = boxerB - boxerA;
         System.out.println("Разница в весе боксеров " + differentWeightOfBoxer);
-
         // Задание 3
         byte banana = 5;
         short milk = 2;
@@ -36,6 +33,15 @@ public class Main {
         System.out.println("Общий вес смеси в граммах " + totalWeight);
         double totalWeightKG = totalWeight / 1000;
         System.out.println("Общий вес смеси в килограммах = " +totalWeightKG);
+        // Задание 4
+        int targetedWeightLoss = 7_000;
+        int minimalWeightLossPerDay = 250;
+        int maximumWeightLossPerDay = 500;
+        int amountOfDayMin = targetedWeightLoss / maximumWeightLossPerDay;
+        int amountOfDayMax = targetedWeightLoss / minimalWeightLossPerDay;
+        System.out.println("Минимальный срок похудения =" + amountOfDayMin);
+        System.out.println("Максимальный срок похудения =" + amountOfDayMax );
+
 
 
 
