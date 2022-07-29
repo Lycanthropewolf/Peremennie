@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+
         // задание 1
         byte cat = 10;
         short dog = 30_000;
@@ -13,6 +14,7 @@ public class Main {
         char b = '@';
         System.out.println(a+"="+b);
         System.out.println(a);
+
         // Задание 2
         float boxerA = 78.2F;
         float boxerB = 82.7F;
@@ -20,6 +22,7 @@ public class Main {
         System.out.println("Общий вес боксеров " + totalWeightOfBoxer + " килограмм");
         float differentWeightOfBoxer = boxerB - boxerA;
         System.out.println("Разница в весе боксеров " + differentWeightOfBoxer + " килограмм");
+
         // Задание 3
         byte banana = 5;
         short milk = 2;
@@ -33,6 +36,7 @@ public class Main {
         System.out.println("Общий вес смеси " + totalWeight + " грамм");
         double totalWeightKG = totalWeight / 1000;
         System.out.println("Общий вес смеси = " +totalWeightKG + " килограмм");
+
         // Задание 4
         int targetedWeightLoss = 7_000;
         int minimalWeightLossPerDay = 250;
@@ -43,6 +47,7 @@ public class Main {
         System.out.println("Максимальный срок похудения = " + amountOfDayMax + " дней" );
         int averageWeightLoss = (amountOfDayMax + amountOfDayMin) / 2;
         System.out.println("Средний срок похудения =" + averageWeightLoss + " день" );
+
         // Задание 5
         int masha = 67_760;
         int denis = 83_690;
@@ -54,7 +59,9 @@ public class Main {
         double  summaZPPoslePovisheniya = zpMashaPlus + zpDenisPlus + zpKristinaPlus;
         double raznica = summaZPPoslePovisheniya - summaZPDoPovisheniya;
         System.out.println("разница между годовым доходом до и после повышения " + raznica + " рублей ");
-
+        System.out.println(" Маша теперь получает " + zpMashaPlus + " рублей. " + " Годовой доход вырос на " + masha * 0.1 + " рублей"  );
+        System.out.println(" Денис теперь получает " + zpDenisPlus + " рублей. " + " Годовой доход вырос на " + denis * 0.1 + " рублей" );
+        System.out.println(" Кристина теперь получает " + zpKristinaPlus + " рублей. " + " Годовой доход вырос на " + kristina * 0.1 + " рублей");
 
 
 
