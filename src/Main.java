@@ -41,6 +41,8 @@ public class Main {
         int amountOfDayMax = targetedWeightLoss / minimalWeightLossPerDay;
         System.out.println("Минимальный срок похудения =" + amountOfDayMin);
         System.out.println("Максимальный срок похудения =" + amountOfDayMax );
+        int averageWeightLoss = (amountOfDayMax + amountOfDayMin) / 2;
+        System.out.println("Средний срок похудения =" + averageWeightLoss );
 
 
 
