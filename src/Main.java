@@ -13,5 +13,14 @@ public class Main {
         char b = '@';
         System.out.println(a+"="+b);
         System.out.println(a);
+        // Задание 2
+        float boxerA = 78.2F;
+        float boxerB = 82.7F;
+        float totalWeightOfBoxer = boxerA + boxerB;
+        System.out.println("Общий вес боксеров " + totalWeightOfBoxer);
+        float differentWeightOfBoxer = boxerB - boxerA;
+        System.out.println("Разница в весе боксеров " + differentWeightOfBoxer);
+
+
     }
-}
+    }
