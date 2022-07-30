@@ -52,16 +52,16 @@ public class Main {
         int masha = 67_760;
         int denis = 83_690;
         int kristina = 76_230;
-        int summaZPDoPovisheniya = masha + denis + kristina;
+        double summaZPDoPovisheniya = masha + denis + kristina;
         double zpMashaPlus = ( masha * 0.1 ) + masha;
         double zpDenisPlus = (denis * 0.1) + denis;
         double zpKristinaPlus = (kristina * 0.1 ) + kristina;
         double  summaZPPoslePovisheniya = zpMashaPlus + zpDenisPlus + zpKristinaPlus;
         double raznica = summaZPPoslePovisheniya - summaZPDoPovisheniya;
         System.out.println("разница между годовым доходом до и после повышения " + raznica + " рублей ");
-        System.out.println(" Маша теперь получает " + zpMashaPlus + " рублей. " + " Годовой доход вырос на " + masha * 0.1 + " рублей"  );
-        System.out.println(" Денис теперь получает " + zpDenisPlus + " рублей. " + " Годовой доход вырос на " + denis * 0.1 + " рублей" );
-        System.out.println(" Кристина теперь получает " + zpKristinaPlus + " рублей. " + " Годовой доход вырос на " + kristina * 0.1 + " рублей");
+        System.out.println(" Маша теперь получает " + zpMashaPlus + " рублей. " + " Годовой доход вырос на " + (double)masha * 0.1 + " рублей"  );
+        System.out.println(" Денис теперь получает " + zpDenisPlus + " рублей. " + " Годовой доход вырос на " + (double)denis * 0.1 + " рублей" );
+        System.out.println(" Кристина теперь получает " + zpKristinaPlus + " рублей. " + " Годовой доход вырос на " + (double)kristina * 0.1 + " рублей");
 
 
 
