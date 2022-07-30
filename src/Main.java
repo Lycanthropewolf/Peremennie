@@ -46,7 +46,7 @@ public class Main {
         System.out.println("Минимальный срок похудения = " + amountOfDayMin + " дней");
         System.out.println("Максимальный срок похудения = " + amountOfDayMax + " дней" );
         int averageWeightLoss = (amountOfDayMax + amountOfDayMin) / 2;
-        System.out.println("Средний срок похудения =" + averageWeightLoss + " день" );
+        System.out.println("Средний срок похудения = " + averageWeightLoss + " день" );
 
         // Задание 5
         int masha = 67_760;
