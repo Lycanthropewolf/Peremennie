@@ -10,10 +10,9 @@ public class Main {
         double money = 123.567;
         boolean namberOfCats = cat >= 8;
         System.out.println(namberOfCats);
-        char a = 64;
-        char b = '@';
-        System.out.println(a+"="+b);
-        System.out.println(a);
+        char m = 64;
+        char n = '@';
+        System.out.println(m+"="+n);
 
         // Задание 2
         float boxerA = 78.2F;
@@ -62,6 +61,20 @@ public class Main {
         System.out.println(" Маша теперь получает " + zpMashaPlus + " рублей. " + " Годовой доход вырос на " + (double)masha * 0.1 + " рублей"  );
         System.out.println(" Денис теперь получает " + zpDenisPlus + " рублей. " + " Годовой доход вырос на " + (double)denis * 0.1 + " рублей" );
         System.out.println(" Кристина теперь получает " + zpKristinaPlus + " рублей. " + " Годовой доход вырос на " + (double)kristina * 0.1 + " рублей");
+
+        // Задание 6
+        int a = 12;
+        int b = 27;
+        int c = 44;
+        int d = 15;
+        int e = 9;
+        int rezult = a*(b + (c - d * e));
+        System.out.println(+ rezult);
+        System.out.println(- rezult);
+
+        //Задание 7
+
+
 
 
 
