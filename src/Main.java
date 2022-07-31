@@ -80,12 +80,8 @@ public class Main {
         System.out.println(" A =" +A +" B =" + B);
 
         // Задание 8
-
-
-
-
-
-
+        int V = 384;
+        int D =
 
     }
     }
