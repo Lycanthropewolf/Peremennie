@@ -73,6 +73,14 @@ public class Main {
         System.out.println(- rezult);
 
         //Задание 7
+        int A = 5;
+        int B = 7;
+        A = 7;
+        B = 5;
+        System.out.println(" A =" +A +" B =" + B);
+
+        // Задание 8
+
 
 
 
