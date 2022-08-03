@@ -81,6 +81,8 @@ public class Main {
 
         // Задание 8
         int V = 395;
+         int F = (V/10)%10;
+         System.out.println(F);
 
 
 
